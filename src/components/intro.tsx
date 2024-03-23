@@ -7,8 +7,8 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/src/lib/hooks";
+import { useActiveSectionContext } from "@/src/context/active-section-context";
 import rollandAvatarImg from "@/public/rolland_avatar.jpg";
 
 export default function Intro() {
