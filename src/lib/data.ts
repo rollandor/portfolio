@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import quantumQuillImg from "@/public/quantum_quill.png";
 import seedstarterImg from "@/public/seedstarter.png";
 
 export const links = [
@@ -69,26 +69,45 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Seedstarter ICO",
-    description:
-      "I worked as a full-stack developer on this startup project. It represents a decentralized private investors venture fund.",
-    tags: ["React", "Next.js", "TypeScript", "PostgreSQL", "Solidity", "Hardhat"],
+    description: {
+      "ru": "Инновационный венчурный фонд, работающий как инвестиционная и фандрайзинговая платформа, реализованная в виде децентрализованной автономной организации (DAO), которая воплощает в жизнь криптопроекты за счет частных инвестиций участников.",
+      "en": "An innovative venture fund operating as an investment and fundraising platform, implemented as a Decentralized Autonomous Organization (DAO).",
+    },
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Solidity",
+      "Hardhat",
+    ],
     imageUrl: seedstarterImg,
+  },
+  {
+    title: "QuantumQuill",
+    description: {
+      "ru": "QuantumQuill — это инновационный Web3 кошелек, созданный для безопасного и интуитивно понятного управления цифровыми активами с помощью передовых технологий шифрования. ",
+      "en": "QuantumQuill is an innovative Web3 wallet designed to provide secure and intuitive management of digital assets through advanced encryption technologies. It offers a user-friendly interface for seamless transactions, staking, and access to decentralized financial services from any device.",
+    },
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+    ],
+    imageUrl: quantumQuillImg,
   },
 ] as const;
 
 export const skillsData = [
-  "C/C++",
-  "Python",
-  "Golang",
-  "Linux",
-  "JavaScript",
   "TypeScript",
+  "Python",
+  "Linux",
   "React",
+  "C/C++",
   "Next.js",
   "Solidity",
   "Hardhat",
   "EthersJS",
   "PostgreSQL",
   "Docker",
-  "UML",
 ] as const;
